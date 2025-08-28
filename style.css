@@ -1,0 +1,98 @@
+:root {
+  --bg: linear-gradient(135deg, #000000, #434343, #ffffff);
+  --glass: rgba(255, 255, 255, 0.1);
+  --accent: #ff6b35;
+  --text: #fff;
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.app {
+  background: var(--glass);
+  backdrop-filter: blur(12px);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: var(--accent);
+}
+
+.metric {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.metric h2 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: var(--accent);
+}
+
+.metric p {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 12px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin-top: 15px;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.instagram-btn {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  background: #e1306c;
+  padding: 10px 16px;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 500;
+  transition: transform 0.2s;
+}
+
+.instagram-btn:hover {
+  transform: scale(1.05);
+  background: #c72a5f;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
