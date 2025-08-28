@@ -1,29 +1,42 @@
-<div class="app">
-  <h1>Contador de Passos</h1>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador de Passos • Rodrigo Melo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>Contador de Passos</h1>
 
-  <div class="metric">
-    <h2>Passos</h2>
-    <p id="steps">0</p>
+    <div class="metric">
+      <h2>Passos</h2>
+      <p id="steps">0</p>
+    </div>
+
+    <div class="metric">
+      <h2>Distância (km)</h2>
+      <p id="distance">0</p>
+    </div>
+
+    <div class="metric">
+      <h2>Calorias (kcal)</h2>
+      <p id="calories">0</p>
+    </div>
+
+    <div class="metric">
+      <h2>Passos por min</h2>
+      <p id="spm">0</p>
+    </div>
+
+    <button id="enableMotion">Ativar Sensores (Mobile)</button>
+
+    <div class="footer">
+      Criador: Rodrigo Melo
+    </div>
   </div>
 
-  <div class="metric">
-    <h2>Distância (km)</h2>
-    <p id="distance">0</p>
-  </div>
-
-  <div class="metric">
-    <h2>Calorias (kcal)</h2>
-    <p id="calories">0</p>
-  </div>
-
-  <div class="metric">
-    <h2>Passos por min</h2>
-    <p id="spm">0</p>
-  </div>
-
-  <button id="enableMotion">Ativar Sensores (Mobile)</button>
-
-  <div class="footer">
-    Criador: Rodrigo Melo
-  </div>
-</div>
+  <script src="script.js"></script>
+</body>
+</html>
